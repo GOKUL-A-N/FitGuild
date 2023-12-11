@@ -20,13 +20,7 @@ body{
     text-decoration: underline;
     text-underline-offset: 8px;
 }
-.Home{
-  background: url(./assets/home-6.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 .heading3{
   color: #FF0000;
   /* color: #14FE00; */

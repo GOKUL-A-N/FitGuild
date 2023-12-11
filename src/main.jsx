@@ -7,7 +7,7 @@ import Bulking from "./pages/Bulking.jsx";
 import FatLoss from "./pages/FatLoss.jsx";
 import TermsAndConditions from './pages/TermsAndConditions.jsx';
 import RefundPolicy from './pages/RefundPolicy.jsx';
-import {Cube} from "react-preloaders2"
+// import {Cube} from "react-preloaders2"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/refundpolicy" element={<RefundPolicy />} />
       </Routes>
     </BrowserRouter>
-    <Cube />
+    {/* <Cube /> */}
     </React.Fragment>
   </React.StrictMode>,
 )
