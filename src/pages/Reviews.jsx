@@ -1,6 +1,6 @@
 import React from 'react';
 import {ReviewContent} from "../constants";
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 
 const Reviews = () => {
   return (

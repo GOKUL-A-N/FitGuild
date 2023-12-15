@@ -1,6 +1,6 @@
 import React,{useState,useCallback} from 'react';
 import {motion as m} from "framer-motion";
-import Modal from '@netojose/react-modal'
+// import Modal from '@netojose/react-modal'
 
 const FatLoss = () => {
 
@@ -49,7 +49,7 @@ const FatLoss = () => {
         {/* <h2 className='pt-4 pb-4 font-bold text-[30px] font-bold heading3'>Calculate your  Calories</h2> */}
         
         <form onSubmit={calculate} className="flex  flex-col p-0 m-0">
-        <h2 className='pt-4 pb-4 font-bold text-[30px] font-bold heading3'>Calculate your  Calories</h2>
+        <h2 className='pt-4 pb-4  text-[30px] font-bold heading3'>Calculate your  Calories</h2>
           <label className='pb-2 text-[19px] left-0'>Enter Your Weight</label>
           <input className='p-3 text-black w-full sm:w-[20%] h-10 input' type='text' placeholder='weight' onChange={handleWeight} value={weight} />
           <button type='submit' className='p-5 m-5 left-0 ml-0 w-full sm:w-[20%] btn third'>Calculate Calories</button>
@@ -64,9 +64,9 @@ const FatLoss = () => {
         <h3 className='text-white text-[20px]'>For more informations subscribe now</h3>
         <br />
         <div >
-            <input className='btn third' type="button" value="Subscribe" onClick={openModal} />
+            <input className='btn third' type="button" value="Subscribe"  />
             <div className="">
-            <Modal  isOpen={isOpen} onRequestClose={closeModal} >
+            <Modal  >
                 <m.div className='background m-[-20px]   justify-center' >
                     <h3 className='text-center p-8 heading3 text-[28px] font-bold '>What's Inside</h3>
                     <ul className='flex flex-col items-center p-10'>
@@ -79,7 +79,7 @@ const FatLoss = () => {
                     </ul>
                     <div className='flex justify-center p-4 rounded'>
                         <button className='btn third '>Subscribe $120</button>
-                        <input className='btn third ml-4' type="button" value="Close" onClick={closeModal} />
+                        <input className='btn third ml-4' type="button"  />
                     </div>
                 </m.div>
             </Modal>
